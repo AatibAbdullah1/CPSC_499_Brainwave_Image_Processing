@@ -1,0 +1,1196 @@
+.
+├── Food_chainz
+│   ├── checkpoint
+│   ├── frozen_inference_graph.pb
+│   ├── model.ckpt.data-00000-of-00001
+│   ├── model.ckpt.index
+│   ├── model.ckpt.meta
+│   ├── pipeline.config
+│   └── saved_model
+│       ├── saved_model.pb
+│       └── variables
+├── data
+│   ├── Test.record
+│   ├── Test_labels.csv
+│   ├── Train.record
+│   └── Train_labels.csv
+├── file_structure_of_GUTS_2.txt
+├── images
+│   ├── 00OBESITY_ghana_street_articleLarge.jpg
+│   ├── 00OBESITY_ghana_street_articleLarge.xml
+│   ├── 0123_biz_wire_app.jpg
+│   ├── 0123_biz_wire_app.xml
+│   ├── 0711_kfc_jpg.jpg
+│   ├── 0711_kfc_jpg.xml
+│   ├── 07_23_16_3_28_24_PM.png
+│   ├── 07_23_16_3_28_24_PM.xml
+│   ├── 0911a054fda44a760a0c6e8a231b69a9__california_trip_southern_california.jpg
+│   ├── 0911a054fda44a760a0c6e8a231b69a9__california_trip_southern_california.xml
+│   ├── 0ae_screenshot20181205at25457pm.jpeg
+│   ├── 0ae_screenshot20181205at25457pm.xml
+│   ├── 0dd329dc_337e_4f51_824a_11624fa41e69_IMG_7008.jpg
+│   ├── 0dd329dc_337e_4f51_824a_11624fa41e69_IMG_7008.xml
+│   ├── 101686470_488545559.jpg
+│   ├── 101686470_488545559.xml
+│   ├── 102417_burger_king_signBW_fitbox_1000x1000.jpg
+│   ├── 102417_burger_king_signBW_fitbox_1000x1000.xml
+│   ├── 102417_burger_king_signBWcrop.jpg
+│   ├── 102417_burger_king_signBWcrop.xml
+│   ├── 104_1048759_who_knew_mcdonalds_could_be_an_aesthetic_mcdonalds.jpg
+│   ├── 104_1048759_who_knew_mcdonalds_could_be_an_aesthetic_mcdonalds.xml
+│   ├── 106233856_1573215752448gettyimages_1164548754.jpeg
+│   ├── 106233856_1573215752448gettyimages_1164548754.xml
+│   ├── 10_Burger_King_Sign_top_10_things_not_to_order_from_bk.jpg
+│   ├── 10_Burger_King_Sign_top_10_things_not_to_order_from_bk.xml
+│   ├── 1113_NWS_WDN_L_NELLES_1113_1.jpg
+│   ├── 1113_NWS_WDN_L_NELLES_1113_1.xml
+│   ├── 1140_mcdonalds_older_workers.jpg
+│   ├── 1140_mcdonalds_older_workers.xml
+│   ├── 1168902700.jpg.0.jpg
+│   ├── 1168902700.jpg.0.xml
+│   ├── 1201_bus_in_n_out_0115.jpg
+│   ├── 1201_bus_in_n_out_0115.xml
+│   ├── 132335285_bordeaux_aquitaine_france_10_11_2019_burger_king_sign_logo_in_the_street_american_famous_b.jpg
+│   ├── 132335285_bordeaux_aquitaine_france_10_11_2019_burger_king_sign_logo_in_the_street_american_famous_b.xml
+│   ├── 13880537.jpg
+│   ├── 13880537.xml
+│   ├── 13900095120_a9ed3ec884_z.jpg
+│   ├── 13900095120_a9ed3ec884_z.xml
+│   ├── 14028641427_66fb6355be_b.jpg
+│   ├── 14028641427_66fb6355be_b.xml
+│   ├── 140615_kfc_restaurant_jms_1737_35d3dd54e622e2e7f893b2cd170503bd.fit_760w.jpg
+│   ├── 140615_kfc_restaurant_jms_1737_35d3dd54e622e2e7f893b2cd170503bd.fit_760w.xml
+│   ├── 1437490386_mcdonalds_logo.jpg
+│   ├── 1437490386_mcdonalds_logo.xml
+│   ├── 1490899324_gettyimages_818528.jpg
+│   ├── 1490899324_gettyimages_818528.xml
+│   ├── 154.jpg
+│   ├── 154.xml
+│   ├── 1734294_sign.jpg
+│   ├── 1734294_sign.xml
+│   ├── 1nopnh.jpg
+│   ├── 1nopnh.xml
+│   ├── 2.jpg
+│   ├── 2.xml
+│   ├── 2018_05_01T000000Z_1528126278_RC1F7286DBF0_RTRMADP_3_USA_OIL_RECORD_ECONOMY_1024x711.jpg
+│   ├── 2018_05_01T000000Z_1528126278_RC1F7286DBF0_RTRMADP_3_USA_OIL_RECORD_ECONOMY_1024x711.xml
+│   ├── 2019_10_02T212945Z_615089763_RC1D52D42500_RTRMADP_3_MCDONALDS_CORP_BEYOND_MEAT_large.jpg
+│   ├── 2019_10_02T212945Z_615089763_RC1D52D42500_RTRMADP_3_MCDONALDS_CORP_BEYOND_MEAT_large.xml
+│   ├── 2171299100_3c8db5b87d_b.jpg
+│   ├── 2171299100_3c8db5b87d_b.xml
+│   ├── 26303841178_926464acb4.jpg
+│   ├── 26303841178_926464acb4.xml
+│   ├── 29996936677_005f9dc092_b.jpg
+│   ├── 29996936677_005f9dc092_b.xml
+│   ├── 2dc17fc8a8af95c0706ac48c35e3a5d85f32e9df.jpg
+│   ├── 2dc17fc8a8af95c0706ac48c35e3a5d85f32e9df.xml
+│   ├── 3007648685_fe9d789ca0.jpg
+│   ├── 3007648685_fe9d789ca0.xml
+│   ├── 30585385942_b74bfe0422.jpg
+│   ├── 30585385942_b74bfe0422.xml
+│   ├── 32042373497_5f3e975862_b.jpg
+│   ├── 32042373497_5f3e975862_b.xml
+│   ├── 34f.jpg
+│   ├── 34f.xml
+│   ├── 3607696_c7f8d63a_640x480.jpg
+│   ├── 3607696_c7f8d63a_640x480.xml
+│   ├── 363023657_349c918bdf.jpg
+│   ├── 363023657_349c918bdf.xml
+│   ├── 37321909636_dfe0cbc248_b.jpg
+│   ├── 37321909636_dfe0cbc248_b.xml
+│   ├── 375x250.jpg
+│   ├── 375x250.xml
+│   ├── 3907814715.jpg
+│   ├── 3907814715.xml
+│   ├── 3948329896_a96e6f91d1.jpg
+│   ├── 3948329896_a96e6f91d1.xml
+│   ├── 39800176805_2dc299aa71_b.jpg
+│   ├── 39800176805_2dc299aa71_b.xml
+│   ├── 3A70758D00000578_3942436_A_case_for_Burger_King_of_going_from_unbeatable_to_uneatable__a_124_1479311.jpg
+│   ├── 3A70758D00000578_3942436_A_case_for_Burger_King_of_going_from_unbeatable_to_uneatable__a_124_1479311.xml
+│   ├── 3xe8b7vim2031.jpg
+│   ├── 3xe8b7vim2031.xml
+│   ├── 40286095002_935aa877d3_b.jpg
+│   ├── 40286095002_935aa877d3_b.xml
+│   ├── 40404928531_10bd7ba634_b.jpg
+│   ├── 40404928531_10bd7ba634_b.xml
+│   ├── 40787354743_e838b2460e.jpg
+│   ├── 40787354743_e838b2460e.xml
+│   ├── 40931741333_3bfe04ff45_b.jpg
+│   ├── 40931741333_3bfe04ff45_b.xml
+│   ├── 41fPGABbHyL.jpg
+│   ├── 41fPGABbHyL.xml
+│   ├── 42272bc0_3584_11ea_bfea_c6c531aef8cc.jpg
+│   ├── 42272bc0_3584_11ea_bfea_c6c531aef8cc.xml
+│   ├── 42733570355_454812791a_b.jpg
+│   ├── 42733570355_454812791a_b.xml
+│   ├── 4362007789_15dd46e900_b.jpg
+│   ├── 4362007789_15dd46e900_b.xml
+│   ├── 440px_KFCsign_Junction_Nbi.jpg
+│   ├── 440px_KFCsign_Junction_Nbi.xml
+│   ├── 441372.jpg
+│   ├── 441372.xml
+│   ├── 44677950260_340a777f1a_b.jpg
+│   ├── 44677950260_340a777f1a_b.xml
+│   ├── 4495652.jpg
+│   ├── 4495652.xml
+│   ├── 4502643_101718_dvo_scylla_in_n_out_katy_vid.jpg
+│   ├── 4502643_101718_dvo_scylla_in_n_out_katy_vid.xml
+│   ├── 460157108.jpg
+│   ├── 460157108.xml
+│   ├── 460917260.jpg
+│   ├── 460917260.xml
+│   ├── 46856805001_c5351090f4.jpg
+│   ├── 46856805001_c5351090f4.xml
+│   ├── 477530986_46e636fdb5.jpg
+│   ├── 477530986_46e636fdb5.xml
+│   ├── 47932812857_98ce33a667_b.jpg
+│   ├── 47932812857_98ce33a667_b.xml
+│   ├── 48155711716_3522beb92f.jpg
+│   ├── 48155711716_3522beb92f.xml
+│   ├── 48155812452_44b509f6cc_b.jpg
+│   ├── 48155812452_44b509f6cc_b.xml
+│   ├── 48392108172_d3044a2716_b.jpg
+│   ├── 48392108172_d3044a2716_b.xml
+│   ├── 487314993_6206dd9248_z.jpg
+│   ├── 487314993_6206dd9248_z.xml
+│   ├── 4916827_33f4284e.jpg
+│   ├── 4916827_33f4284e.xml
+│   ├── 4933bd1a_9a99_47ae_b39b_63ca7baa834e_AFP_AFP_18Q2LN.jpg
+│   ├── 4933bd1a_9a99_47ae_b39b_63ca7baa834e_AFP_AFP_18Q2LN.xml
+│   ├── 4A961F5700000578_5547225_McDonald_s_told_TodayTonight_the_sign_was_a_standard_size_and_co_m_33_15221.jpg
+│   ├── 4A961F5700000578_5547225_McDonald_s_told_TodayTonight_the_sign_was_a_standard_size_and_co_m_33_15221.xml
+│   ├── 4C066F0E00000578_0_image_m_2_1525886351229.jpg
+│   ├── 4C066F0E00000578_0_image_m_2_1525886351229.xml
+│   ├── 4c0d54007f8b9a7f4f910000.jpg
+│   ├── 4c0d54007f8b9a7f4f910000.xml
+│   ├── 500_F_285135477_H70ML6MgF08Vt6gQ5h5s5iQgOKZvr9Cz.jpg
+│   ├── 500_F_285135477_H70ML6MgF08Vt6gQ5h5s5iQgOKZvr9Cz.xml
+│   ├── 500_F_288398442_oLpbT46d6aWZbIkxDMl9e6Mq8DsL41qi.jpg
+│   ├── 500_F_288398442_oLpbT46d6aWZbIkxDMl9e6Mq8DsL41qi.xml
+│   ├── 5121992564_912d4d52da_b.jpg
+│   ├── 5121992564_912d4d52da_b.xml
+│   ├── 539d8b00e96c3e3d12df9a8fd7fa9450.jpg
+│   ├── 539d8b00e96c3e3d12df9a8fd7fa9450.xml
+│   ├── 53b48476e7093.image.jpg
+│   ├── 53b48476e7093.image.xml
+│   ├── 55.jpg
+│   ├── 55.xml
+│   ├── 556398933a909.image.jpg
+│   ├── 556398933a909.image.xml
+│   ├── 56848305_burger_king_restuarant_sign_burger_king_is_an_american_global_chain_of_hamburger_fast_food_ - Copy.jpg
+│   ├── 56848305_burger_king_restuarant_sign_burger_king_is_an_american_global_chain_of_hamburger_fast_food_ - Copy.xml
+│   ├── 577c5bd715fb1.image.jpg
+│   ├── 577c5bd715fb1.image.xml
+│   ├── 5893474708_15db21d0c6_b.jpg
+│   ├── 5893474708_15db21d0c6_b.xml
+│   ├── 5a43ff517eed9.image.jpg
+│   ├── 5a43ff517eed9.image.xml
+│   ├── 5a8e69d453862.image.jpg
+│   ├── 5a8e69d453862.image.xml
+│   ├── 5a8e69d5a425f.image.jpg
+│   ├── 5a8e69d5a425f.image.xml
+│   ├── 5b29c3e60161a1000dd5fd93_original.jpg
+│   ├── 5b29c3e60161a1000dd5fd93_original.xml
+│   ├── 5b45039bd53a5.image.jpg
+│   ├── 5b45039bd53a5.image.xml
+│   ├── 5bdc804e1fb24b074612498a491eb503.jpg
+│   ├── 5bdc804e1fb24b074612498a491eb503.xml
+│   ├── 5c080076aec81.preview.jpg
+│   ├── 5c080076aec81.preview.xml
+│   ├── 5db97603dee0192f854109f4.jpg
+│   ├── 5db97603dee0192f854109f4.xml
+│   ├── 5dcc7f3e0d24c.image.jpg
+│   ├── 5dcc7f3e0d24c.image.xml
+│   ├── 5df15159fd9db2334639b252.jpg
+│   ├── 5df15159fd9db2334639b252.xml
+│   ├── 619869042.jpg
+│   ├── 619869042.xml
+│   ├── 6830708665_c811a340ea_z.jpg
+│   ├── 6830708665_c811a340ea_z.xml
+│   ├── 6885339_mcdonalds_sign.jpg
+│   ├── 6885339_mcdonalds_sign.xml
+│   ├── 70f92ffdfb9fb80cd48918eb64b29de4.jpg
+│   ├── 70f92ffdfb9fb80cd48918eb64b29de4.xml
+│   ├── 72337734.jpg
+│   ├── 72337734.xml
+│   ├── 747861bea187aa136482cd220c80b4ff.jpg
+│   ├── 747861bea187aa136482cd220c80b4ff.xml
+│   ├── 75696405_springfield_or_march_31_2017_mcdonalds_sign_reads_billions_and_billions_served_in_springfie.jpg
+│   ├── 75696405_springfield_or_march_31_2017_mcdonalds_sign_reads_billions_and_billions_served_in_springfie.xml
+│   ├── 7757a5fb_3363_4a0d_ac8b_8ca2ac5df22b.jpg
+│   ├── 7757a5fb_3363_4a0d_ac8b_8ca2ac5df22b.xml
+│   ├── 79921855.jpg
+│   ├── 79921855.xml
+│   ├── 819797be_c295_4581_b6a3_18204f1e081f.jpg
+│   ├── 819797be_c295_4581_b6a3_18204f1e081f.xml
+│   ├── 8235500457_256dfe8e6e_b.jpg
+│   ├── 8235500457_256dfe8e6e_b.xml
+│   ├── 854.jpg
+│   ├── 854.xml
+│   ├── 8cpa4n0q7ii11.jpg
+│   ├── 8cpa4n0q7ii11.xml
+│   ├── 960x0.jpg
+│   ├── 960x0.xml
+│   ├── 9708031098_48a1ae09c9_b.jpg
+│   ├── 9708031098_48a1ae09c9_b.xml
+│   ├── 999db1ed9a578161eca8983eee464a58.jpg
+│   ├── 999db1ed9a578161eca8983eee464a58.xml
+│   ├── 9ea5d978_0c95_41b0_9d27_5e8acd563bea_large16x9_1280x720_40825P00TUDKT - Copy.jpg
+│   ├── 9ea5d978_0c95_41b0_9d27_5e8acd563bea_large16x9_1280x720_40825P00TUDKT - Copy.xml
+│   ├── AHRK49_1920x1080_Alamy.jpg
+│   ├── AHRK49_1920x1080_Alamy.xml
+│   ├── AR_160909606.jpg
+│   ├── AR_160909606.xml
+│   ├── AR_180919828.jpg
+│   ├── AR_180919828.xml
+│   ├── ATA110718innout_img01.jpg
+│   ├── ATA110718innout_img01.xml
+│   ├── BN_MQ940_0218bk_P_20160218040505.jpg
+│   ├── BN_MQ940_0218bk_P_20160218040505.xml
+│   ├── BN_RC192_mcdchi_GR_20161206054210.jpg
+│   ├── BN_RC192_mcdchi_GR_20161206054210.xml
+│   ├── BOC2019_burger_23_1.jpg
+│   ├── BOC2019_burger_23_1.xml
+│   ├── BacR7ugCAAAjCd5 - Copy.png
+│   ├── BacR7ugCAAAjCd5 - Copy.xml
+│   ├── Bk_Breasts_Cropped.jpg
+│   ├── Bk_Breasts_Cropped.xml
+│   ├── Borowitz_TrumpMcDonalds.jpg
+│   ├── Borowitz_TrumpMcDonalds.xml
+│   ├── Burger_King (3).jpg
+│   ├── Burger_King (3).xml
+│   ├── Burger_King_1902_S_77_Sunshine_Strip_Harlingen.png
+│   ├── Burger_King_1902_S_77_Sunshine_Strip_Harlingen.xml
+│   ├── Burger_King_9038037850.jpg
+│   ├── Burger_King_9038037850.xml
+│   ├── Burger_King_I5_pole_sign_combined_e1290496198586.jpg
+│   ├── Burger_King_I5_pole_sign_combined_e1290496198586.xml
+│   ├── DefOOSCVMAAVjps.jpg
+│   ├── DefOOSCVMAAVjps.xml
+│   ├── GettyImages_1137663262.jpg
+│   ├── GettyImages_1137663262.xml
+│   ├── High_sign_Mcd_5a3176a53fd51.jpg
+│   ├── High_sign_Mcd_5a3176a53fd51.xml
+│   ├── IMG_3461.jpg
+│   ├── IMG_3461.xml
+│   ├── IMG_4208.jpg
+│   ├── IMG_4208.xml
+│   ├── IMG_9286_6.jpg
+│   ├── IMG_9286_6.xml
+│   ├── IMG_9576.jpg
+│   ├── IMG_9576.xml
+│   ├── IN_N_OUT_REWIND_GEAR_PATROL_LEAD_FULL.jpg
+│   ├── IN_N_OUT_REWIND_GEAR_PATROL_LEAD_FULL.xml
+│   ├── InNout_shutterstock_1557191786 - Copy.jpg
+│   ├── InNout_shutterstock_1557191786 - Copy.xml
+│   ├── InOut (1).jpg
+│   ├── InOut (1).xml
+│   ├── In_N_Out_Burger_sign__Los_Angeles.jpg
+│   ├── In_N_Out_Burger_sign__Los_Angeles.xml
+│   ├── In_N_Out_Burger_voted_Americas_favorite_fast_food_restaurant_for_a_second_year.jpg
+│   ├── In_N_Out_Burger_voted_Americas_favorite_fast_food_restaurant_for_a_second_year.xml
+│   ├── JWE3SLVVVJBORLMMUXVIPXZYWA.jpg
+│   ├── JWE3SLVVVJBORLMMUXVIPXZYWA.xml
+│   ├── KFCBHWork.jpg
+│   ├── KFCBHWork.xml
+│   ├── KFC_06_05_2016_7730.jpg
+│   ├── KFC_06_05_2016_7730.xml
+│   ├── KYCORsanderscafe_ks07_620x300.jpg
+│   ├── KYCORsanderscafe_ks07_620x300.xml
+│   ├── LPT_L_IN_N_OUT_0824_02BM_1.jpg
+│   ├── LPT_L_IN_N_OUT_0824_02BM_1.xml
+│   ├── Macdonalds_5.jpg
+│   ├── Macdonalds_5.xml
+│   ├── McD_sign3.jpg
+│   ├── McD_sign3.xml
+│   ├── McDonald_s_Sign_Appears_to_Take_Dig_at_New_Neighbor.jpg
+│   ├── McDonald_s_Sign_Appears_to_Take_Dig_at_New_Neighbor.xml
+│   ├── McDonald_s_Sign_off_of_Bemiss_Rd.jpg
+│   ├── McDonald_s_Sign_off_of_Bemiss_Rd.xml
+│   ├── McDonald_s_high_sign_in_Casper_Wyoming.jpg
+│   ├── McDonald_s_high_sign_in_Casper_Wyoming.xml
+│   ├── McDonalds_Article_201805291348.jpg
+│   ├── McDonalds_Article_201805291348.xml
+│   ├── McDonalds_blue_sky.jpg
+│   ├── McDonalds_blue_sky.xml
+│   ├── McDonalds_sign_in_Datong_China.jpg
+│   ├── McDonalds_sign_in_Datong_China.xml
+│   ├── Mcdonalds_sign (3).jpg
+│   ├── Mcdonalds_sign (3).xml
+│   ├── NEWS07_180439988_AR.jpeg
+│   ├── NEWS07_180439988_AR.xml
+│   ├── NINTCHDBPICT0003583081761.jpg
+│   ├── NINTCHDBPICT0003583081761.xml
+│   ├── SJM_INNOUT_0130.jpg
+│   ├── SJM_INNOUT_0130.xml
+│   ├── Sign (2).jpg
+│   ├── Sign (2).xml
+│   ├── Signs_850x478.jpg
+│   ├── Signs_850x478.xml
+│   ├── TKT_6dda40fe_4193_4f7f_9fe8_04abedfdab95.jpg
+│   ├── TKT_6dda40fe_4193_4f7f_9fe8_04abedfdab95.xml
+│   ├── Test
+│   │   ├── 00OBESITY_ghana_street_articleLarge.jpg
+│   │   ├── 00OBESITY_ghana_street_articleLarge.xml
+│   │   ├── 0123_biz_wire_app.jpg
+│   │   ├── 0123_biz_wire_app.xml
+│   │   ├── 0ae_screenshot20181205at25457pm.jpeg
+│   │   ├── 0ae_screenshot20181205at25457pm.xml
+│   │   ├── 0dd329dc_337e_4f51_824a_11624fa41e69_IMG_7008.jpg
+│   │   ├── 0dd329dc_337e_4f51_824a_11624fa41e69_IMG_7008.xml
+│   │   ├── 10_Burger_King_Sign_top_10_things_not_to_order_from_bk.jpg
+│   │   ├── 10_Burger_King_Sign_top_10_things_not_to_order_from_bk.xml
+│   │   ├── 1nopnh.jpg
+│   │   ├── 1nopnh.xml
+│   │   ├── 2.jpg
+│   │   ├── 2.xml
+│   │   ├── 2dc17fc8a8af95c0706ac48c35e3a5d85f32e9df.jpg
+│   │   ├── 2dc17fc8a8af95c0706ac48c35e3a5d85f32e9df.xml
+│   │   ├── 3A70758D00000578_3942436_A_case_for_Burger_King_of_going_from_unbeatable_to_uneatable__a_124_1479311.jpg
+│   │   ├── 3A70758D00000578_3942436_A_case_for_Burger_King_of_going_from_unbeatable_to_uneatable__a_124_1479311.xml
+│   │   ├── 3xe8b7vim2031.jpg
+│   │   ├── 3xe8b7vim2031.xml
+│   │   ├── 4A961F5700000578_5547225_McDonald_s_told_TodayTonight_the_sign_was_a_standard_size_and_co_m_33_15221.jpg
+│   │   ├── 4A961F5700000578_5547225_McDonald_s_told_TodayTonight_the_sign_was_a_standard_size_and_co_m_33_15221.xml
+│   │   ├── 4C066F0E00000578_0_image_m_2_1525886351229.jpg
+│   │   ├── 4C066F0E00000578_0_image_m_2_1525886351229.xml
+│   │   ├── 4c0d54007f8b9a7f4f910000.jpg
+│   │   ├── 4c0d54007f8b9a7f4f910000.xml
+│   │   ├── 53b48476e7093.image.jpg
+│   │   ├── 53b48476e7093.image.xml
+│   │   ├── 5a43ff517eed9.image.jpg
+│   │   ├── 5a43ff517eed9.image.xml
+│   │   ├── 5a8e69d453862.image.jpg
+│   │   ├── 5a8e69d453862.image.xml
+│   │   ├── 5a8e69d5a425f.image.jpg
+│   │   ├── 5a8e69d5a425f.image.xml
+│   │   ├── 5b29c3e60161a1000dd5fd93_original.jpg
+│   │   ├── 5b29c3e60161a1000dd5fd93_original.xml
+│   │   ├── 5b45039bd53a5.image.jpg
+│   │   ├── 5b45039bd53a5.image.xml
+│   │   ├── 5bdc804e1fb24b074612498a491eb503.jpg
+│   │   ├── 5bdc804e1fb24b074612498a491eb503.xml
+│   │   ├── 5c080076aec81.preview.jpg
+│   │   ├── 5c080076aec81.preview.xml
+│   │   ├── 5df15159fd9db2334639b252.jpg
+│   │   ├── 5df15159fd9db2334639b252.xml
+│   │   ├── 8cpa4n0q7ii11.jpg
+│   │   ├── 8cpa4n0q7ii11.xml
+│   │   ├── 9ea5d978_0c95_41b0_9d27_5e8acd563bea_large16x9_1280x720_40825P00TUDKT - Copy.jpg
+│   │   ├── 9ea5d978_0c95_41b0_9d27_5e8acd563bea_large16x9_1280x720_40825P00TUDKT - Copy.xml
+│   │   ├── _80239450_mcd_toledo.jpg
+│   │   ├── _80239450_mcd_toledo.xml
+│   │   ├── _XPx9eus_400x400.jpg
+│   │   └── _XPx9eus_400x400.xml
+│   ├── Train
+│   │   ├── 0711_kfc_jpg.jpg
+│   │   ├── 0711_kfc_jpg.xml
+│   │   ├── 07_23_16_3_28_24_PM.png
+│   │   ├── 07_23_16_3_28_24_PM.xml
+│   │   ├── 0911a054fda44a760a0c6e8a231b69a9__california_trip_southern_california.jpg
+│   │   ├── 0911a054fda44a760a0c6e8a231b69a9__california_trip_southern_california.xml
+│   │   ├── 101686470_488545559.jpg
+│   │   ├── 101686470_488545559.xml
+│   │   ├── 102417_burger_king_signBW_fitbox_1000x1000.jpg
+│   │   ├── 102417_burger_king_signBW_fitbox_1000x1000.xml
+│   │   ├── 102417_burger_king_signBWcrop.jpg
+│   │   ├── 102417_burger_king_signBWcrop.xml
+│   │   ├── 104_1048759_who_knew_mcdonalds_could_be_an_aesthetic_mcdonalds.jpg
+│   │   ├── 104_1048759_who_knew_mcdonalds_could_be_an_aesthetic_mcdonalds.xml
+│   │   ├── 106233856_1573215752448gettyimages_1164548754.jpeg
+│   │   ├── 106233856_1573215752448gettyimages_1164548754.xml
+│   │   ├── 1113_NWS_WDN_L_NELLES_1113_1.jpg
+│   │   ├── 1113_NWS_WDN_L_NELLES_1113_1.xml
+│   │   ├── 1140_mcdonalds_older_workers.jpg
+│   │   ├── 1140_mcdonalds_older_workers.xml
+│   │   ├── 1168902700.jpg.0.jpg
+│   │   ├── 1168902700.jpg.0.xml
+│   │   ├── 1201_bus_in_n_out_0115.jpg
+│   │   ├── 1201_bus_in_n_out_0115.xml
+│   │   ├── 132335285_bordeaux_aquitaine_france_10_11_2019_burger_king_sign_logo_in_the_street_american_famous_b.jpg
+│   │   ├── 132335285_bordeaux_aquitaine_france_10_11_2019_burger_king_sign_logo_in_the_street_american_famous_b.xml
+│   │   ├── 13880537.jpg
+│   │   ├── 13880537.xml
+│   │   ├── 13900095120_a9ed3ec884_z.jpg
+│   │   ├── 13900095120_a9ed3ec884_z.xml
+│   │   ├── 14028641427_66fb6355be_b.jpg
+│   │   ├── 14028641427_66fb6355be_b.xml
+│   │   ├── 140615_kfc_restaurant_jms_1737_35d3dd54e622e2e7f893b2cd170503bd.fit_760w.jpg
+│   │   ├── 140615_kfc_restaurant_jms_1737_35d3dd54e622e2e7f893b2cd170503bd.fit_760w.xml
+│   │   ├── 1437490386_mcdonalds_logo.jpg
+│   │   ├── 1437490386_mcdonalds_logo.xml
+│   │   ├── 1490899324_gettyimages_818528.jpg
+│   │   ├── 1490899324_gettyimages_818528.xml
+│   │   ├── 154.jpg
+│   │   ├── 154.xml
+│   │   ├── 1734294_sign.jpg
+│   │   ├── 1734294_sign.xml
+│   │   ├── 2018_05_01T000000Z_1528126278_RC1F7286DBF0_RTRMADP_3_USA_OIL_RECORD_ECONOMY_1024x711.jpg
+│   │   ├── 2018_05_01T000000Z_1528126278_RC1F7286DBF0_RTRMADP_3_USA_OIL_RECORD_ECONOMY_1024x711.xml
+│   │   ├── 2019_10_02T212945Z_615089763_RC1D52D42500_RTRMADP_3_MCDONALDS_CORP_BEYOND_MEAT_large.jpg
+│   │   ├── 2019_10_02T212945Z_615089763_RC1D52D42500_RTRMADP_3_MCDONALDS_CORP_BEYOND_MEAT_large.xml
+│   │   ├── 2171299100_3c8db5b87d_b.jpg
+│   │   ├── 2171299100_3c8db5b87d_b.xml
+│   │   ├── 26303841178_926464acb4.jpg
+│   │   ├── 26303841178_926464acb4.xml
+│   │   ├── 29996936677_005f9dc092_b.jpg
+│   │   ├── 29996936677_005f9dc092_b.xml
+│   │   ├── 3007648685_fe9d789ca0.jpg
+│   │   ├── 3007648685_fe9d789ca0.xml
+│   │   ├── 30585385942_b74bfe0422.jpg
+│   │   ├── 30585385942_b74bfe0422.xml
+│   │   ├── 32042373497_5f3e975862_b.jpg
+│   │   ├── 32042373497_5f3e975862_b.xml
+│   │   ├── 34f.jpg
+│   │   ├── 34f.xml
+│   │   ├── 3607696_c7f8d63a_640x480.jpg
+│   │   ├── 3607696_c7f8d63a_640x480.xml
+│   │   ├── 363023657_349c918bdf.jpg
+│   │   ├── 363023657_349c918bdf.xml
+│   │   ├── 37321909636_dfe0cbc248_b.jpg
+│   │   ├── 37321909636_dfe0cbc248_b.xml
+│   │   ├── 375x250.jpg
+│   │   ├── 375x250.xml
+│   │   ├── 3907814715.jpg
+│   │   ├── 3907814715.xml
+│   │   ├── 3948329896_a96e6f91d1.jpg
+│   │   ├── 3948329896_a96e6f91d1.xml
+│   │   ├── 39800176805_2dc299aa71_b.jpg
+│   │   ├── 39800176805_2dc299aa71_b.xml
+│   │   ├── 40286095002_935aa877d3_b.jpg
+│   │   ├── 40286095002_935aa877d3_b.xml
+│   │   ├── 40404928531_10bd7ba634_b.jpg
+│   │   ├── 40404928531_10bd7ba634_b.xml
+│   │   ├── 40787354743_e838b2460e.jpg
+│   │   ├── 40787354743_e838b2460e.xml
+│   │   ├── 40931741333_3bfe04ff45_b.jpg
+│   │   ├── 40931741333_3bfe04ff45_b.xml
+│   │   ├── 41fPGABbHyL.jpg
+│   │   ├── 41fPGABbHyL.xml
+│   │   ├── 42272bc0_3584_11ea_bfea_c6c531aef8cc.jpg
+│   │   ├── 42272bc0_3584_11ea_bfea_c6c531aef8cc.xml
+│   │   ├── 42733570355_454812791a_b.jpg
+│   │   ├── 42733570355_454812791a_b.xml
+│   │   ├── 4362007789_15dd46e900_b.jpg
+│   │   ├── 4362007789_15dd46e900_b.xml
+│   │   ├── 440px_KFCsign_Junction_Nbi.jpg
+│   │   ├── 440px_KFCsign_Junction_Nbi.xml
+│   │   ├── 441372.jpg
+│   │   ├── 441372.xml
+│   │   ├── 44677950260_340a777f1a_b.jpg
+│   │   ├── 44677950260_340a777f1a_b.xml
+│   │   ├── 4495652.jpg
+│   │   ├── 4495652.xml
+│   │   ├── 4502643_101718_dvo_scylla_in_n_out_katy_vid.jpg
+│   │   ├── 4502643_101718_dvo_scylla_in_n_out_katy_vid.xml
+│   │   ├── 460157108.jpg
+│   │   ├── 460157108.xml
+│   │   ├── 460917260.jpg
+│   │   ├── 460917260.xml
+│   │   ├── 46856805001_c5351090f4.jpg
+│   │   ├── 46856805001_c5351090f4.xml
+│   │   ├── 477530986_46e636fdb5.jpg
+│   │   ├── 477530986_46e636fdb5.xml
+│   │   ├── 47932812857_98ce33a667_b.jpg
+│   │   ├── 47932812857_98ce33a667_b.xml
+│   │   ├── 48155711716_3522beb92f.jpg
+│   │   ├── 48155711716_3522beb92f.xml
+│   │   ├── 48155812452_44b509f6cc_b.jpg
+│   │   ├── 48155812452_44b509f6cc_b.xml
+│   │   ├── 48392108172_d3044a2716_b.jpg
+│   │   ├── 48392108172_d3044a2716_b.xml
+│   │   ├── 487314993_6206dd9248_z.jpg
+│   │   ├── 487314993_6206dd9248_z.xml
+│   │   ├── 4916827_33f4284e.jpg
+│   │   ├── 4916827_33f4284e.xml
+│   │   ├── 4933bd1a_9a99_47ae_b39b_63ca7baa834e_AFP_AFP_18Q2LN.jpg
+│   │   ├── 4933bd1a_9a99_47ae_b39b_63ca7baa834e_AFP_AFP_18Q2LN.xml
+│   │   ├── 500_F_285135477_H70ML6MgF08Vt6gQ5h5s5iQgOKZvr9Cz.jpg
+│   │   ├── 500_F_285135477_H70ML6MgF08Vt6gQ5h5s5iQgOKZvr9Cz.xml
+│   │   ├── 500_F_288398442_oLpbT46d6aWZbIkxDMl9e6Mq8DsL41qi.jpg
+│   │   ├── 500_F_288398442_oLpbT46d6aWZbIkxDMl9e6Mq8DsL41qi.xml
+│   │   ├── 5121992564_912d4d52da_b.jpg
+│   │   ├── 5121992564_912d4d52da_b.xml
+│   │   ├── 539d8b00e96c3e3d12df9a8fd7fa9450.jpg
+│   │   ├── 539d8b00e96c3e3d12df9a8fd7fa9450.xml
+│   │   ├── 55.jpg
+│   │   ├── 55.xml
+│   │   ├── 556398933a909.image.jpg
+│   │   ├── 556398933a909.image.xml
+│   │   ├── 56848305_burger_king_restuarant_sign_burger_king_is_an_american_global_chain_of_hamburger_fast_food_ - Copy.jpg
+│   │   ├── 56848305_burger_king_restuarant_sign_burger_king_is_an_american_global_chain_of_hamburger_fast_food_ - Copy.xml
+│   │   ├── 577c5bd715fb1.image.jpg
+│   │   ├── 577c5bd715fb1.image.xml
+│   │   ├── 5893474708_15db21d0c6_b.jpg
+│   │   ├── 5893474708_15db21d0c6_b.xml
+│   │   ├── 5db97603dee0192f854109f4.jpg
+│   │   ├── 5db97603dee0192f854109f4.xml
+│   │   ├── 5dcc7f3e0d24c.image.jpg
+│   │   ├── 5dcc7f3e0d24c.image.xml
+│   │   ├── 619869042.jpg
+│   │   ├── 619869042.xml
+│   │   ├── 6830708665_c811a340ea_z.jpg
+│   │   ├── 6830708665_c811a340ea_z.xml
+│   │   ├── 6885339_mcdonalds_sign.jpg
+│   │   ├── 6885339_mcdonalds_sign.xml
+│   │   ├── 70f92ffdfb9fb80cd48918eb64b29de4.jpg
+│   │   ├── 70f92ffdfb9fb80cd48918eb64b29de4.xml
+│   │   ├── 72337734.jpg
+│   │   ├── 72337734.xml
+│   │   ├── 747861bea187aa136482cd220c80b4ff.jpg
+│   │   ├── 747861bea187aa136482cd220c80b4ff.xml
+│   │   ├── 75696405_springfield_or_march_31_2017_mcdonalds_sign_reads_billions_and_billions_served_in_springfie.jpg
+│   │   ├── 75696405_springfield_or_march_31_2017_mcdonalds_sign_reads_billions_and_billions_served_in_springfie.xml
+│   │   ├── 7757a5fb_3363_4a0d_ac8b_8ca2ac5df22b.jpg
+│   │   ├── 7757a5fb_3363_4a0d_ac8b_8ca2ac5df22b.xml
+│   │   ├── 79921855.jpg
+│   │   ├── 79921855.xml
+│   │   ├── 819797be_c295_4581_b6a3_18204f1e081f.jpg
+│   │   ├── 819797be_c295_4581_b6a3_18204f1e081f.xml
+│   │   ├── 8235500457_256dfe8e6e_b.jpg
+│   │   ├── 8235500457_256dfe8e6e_b.xml
+│   │   ├── 854.jpg
+│   │   ├── 854.xml
+│   │   ├── 960x0.jpg
+│   │   ├── 960x0.xml
+│   │   ├── 9708031098_48a1ae09c9_b.jpg
+│   │   ├── 9708031098_48a1ae09c9_b.xml
+│   │   ├── 999db1ed9a578161eca8983eee464a58.jpg
+│   │   ├── 999db1ed9a578161eca8983eee464a58.xml
+│   │   ├── AHRK49_1920x1080_Alamy.jpg
+│   │   ├── AHRK49_1920x1080_Alamy.xml
+│   │   ├── AR_160909606.jpg
+│   │   ├── AR_160909606.xml
+│   │   ├── AR_180919828.jpg
+│   │   ├── AR_180919828.xml
+│   │   ├── ATA110718innout_img01.jpg
+│   │   ├── ATA110718innout_img01.xml
+│   │   ├── BN_MQ940_0218bk_P_20160218040505.jpg
+│   │   ├── BN_MQ940_0218bk_P_20160218040505.xml
+│   │   ├── BN_RC192_mcdchi_GR_20161206054210.jpg
+│   │   ├── BN_RC192_mcdchi_GR_20161206054210.xml
+│   │   ├── BOC2019_burger_23_1.jpg
+│   │   ├── BOC2019_burger_23_1.xml
+│   │   ├── BacR7ugCAAAjCd5 - Copy.png
+│   │   ├── BacR7ugCAAAjCd5 - Copy.xml
+│   │   ├── Bk_Breasts_Cropped.jpg
+│   │   ├── Bk_Breasts_Cropped.xml
+│   │   ├── Borowitz_TrumpMcDonalds.jpg
+│   │   ├── Borowitz_TrumpMcDonalds.xml
+│   │   ├── Burger_King (3).jpg
+│   │   ├── Burger_King (3).xml
+│   │   ├── Burger_King_1902_S_77_Sunshine_Strip_Harlingen.png
+│   │   ├── Burger_King_1902_S_77_Sunshine_Strip_Harlingen.xml
+│   │   ├── Burger_King_9038037850.jpg
+│   │   ├── Burger_King_9038037850.xml
+│   │   ├── Burger_King_I5_pole_sign_combined_e1290496198586.jpg
+│   │   ├── Burger_King_I5_pole_sign_combined_e1290496198586.xml
+│   │   ├── DefOOSCVMAAVjps.jpg
+│   │   ├── DefOOSCVMAAVjps.xml
+│   │   ├── GettyImages_1137663262.jpg
+│   │   ├── GettyImages_1137663262.xml
+│   │   ├── High_sign_Mcd_5a3176a53fd51.jpg
+│   │   ├── High_sign_Mcd_5a3176a53fd51.xml
+│   │   ├── IMG_3461.jpg
+│   │   ├── IMG_3461.xml
+│   │   ├── IMG_4208.jpg
+│   │   ├── IMG_4208.xml
+│   │   ├── IMG_9286_6.jpg
+│   │   ├── IMG_9286_6.xml
+│   │   ├── IMG_9576.jpg
+│   │   ├── IMG_9576.xml
+│   │   ├── IN_N_OUT_REWIND_GEAR_PATROL_LEAD_FULL.jpg
+│   │   ├── IN_N_OUT_REWIND_GEAR_PATROL_LEAD_FULL.xml
+│   │   ├── InNout_shutterstock_1557191786 - Copy.jpg
+│   │   ├── InNout_shutterstock_1557191786 - Copy.xml
+│   │   ├── InOut (1).jpg
+│   │   ├── InOut (1).xml
+│   │   ├── In_N_Out_Burger_sign__Los_Angeles.jpg
+│   │   ├── In_N_Out_Burger_sign__Los_Angeles.xml
+│   │   ├── In_N_Out_Burger_voted_Americas_favorite_fast_food_restaurant_for_a_second_year.jpg
+│   │   ├── In_N_Out_Burger_voted_Americas_favorite_fast_food_restaurant_for_a_second_year.xml
+│   │   ├── JWE3SLVVVJBORLMMUXVIPXZYWA.jpg
+│   │   ├── JWE3SLVVVJBORLMMUXVIPXZYWA.xml
+│   │   ├── KFCBHWork.jpg
+│   │   ├── KFCBHWork.xml
+│   │   ├── KFC_06_05_2016_7730.jpg
+│   │   ├── KFC_06_05_2016_7730.xml
+│   │   ├── KYCORsanderscafe_ks07_620x300.jpg
+│   │   ├── KYCORsanderscafe_ks07_620x300.xml
+│   │   ├── LPT_L_IN_N_OUT_0824_02BM_1.jpg
+│   │   ├── LPT_L_IN_N_OUT_0824_02BM_1.xml
+│   │   ├── Macdonalds_5.jpg
+│   │   ├── Macdonalds_5.xml
+│   │   ├── McD_sign3.jpg
+│   │   ├── McD_sign3.xml
+│   │   ├── McDonald_s_Sign_Appears_to_Take_Dig_at_New_Neighbor.jpg
+│   │   ├── McDonald_s_Sign_Appears_to_Take_Dig_at_New_Neighbor.xml
+│   │   ├── McDonald_s_Sign_off_of_Bemiss_Rd.jpg
+│   │   ├── McDonald_s_Sign_off_of_Bemiss_Rd.xml
+│   │   ├── McDonald_s_high_sign_in_Casper_Wyoming.jpg
+│   │   ├── McDonald_s_high_sign_in_Casper_Wyoming.xml
+│   │   ├── McDonalds_Article_201805291348.jpg
+│   │   ├── McDonalds_Article_201805291348.xml
+│   │   ├── McDonalds_blue_sky.jpg
+│   │   ├── McDonalds_blue_sky.xml
+│   │   ├── McDonalds_sign_in_Datong_China.jpg
+│   │   ├── McDonalds_sign_in_Datong_China.xml
+│   │   ├── Mcdonalds_sign (3).jpg
+│   │   ├── Mcdonalds_sign (3).xml
+│   │   ├── NEWS07_180439988_AR.jpeg
+│   │   ├── NEWS07_180439988_AR.xml
+│   │   ├── NINTCHDBPICT0003583081761.jpg
+│   │   ├── NINTCHDBPICT0003583081761.xml
+│   │   ├── SJM_INNOUT_0130.jpg
+│   │   ├── SJM_INNOUT_0130.xml
+│   │   ├── Sign (2).jpg
+│   │   ├── Sign (2).xml
+│   │   ├── Signs_850x478.jpg
+│   │   ├── Signs_850x478.xml
+│   │   ├── TKT_6dda40fe_4193_4f7f_9fe8_04abedfdab95.jpg
+│   │   ├── TKT_6dda40fe_4193_4f7f_9fe8_04abedfdab95.xml
+│   │   ├── UDXOS7NGKVAV5B6ZGZYZZHC65Q.jpg
+│   │   ├── UDXOS7NGKVAV5B6ZGZYZZHC65Q.xml
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (1).jpg
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (1).xml
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (2).jpg
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (2).xml
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (3).jpg
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (3).xml
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july.jpg
+│   │   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july.xml
+│   │   ├── a_sign_for_in_n_out_burger_at_fishermans_wharf_in_san_francisco_california_H9F4FW.jpg
+│   │   ├── a_sign_for_in_n_out_burger_at_fishermans_wharf_in_san_francisco_california_H9F4FW.xml
+│   │   ├── aerial_video_burger_king_sign_footage_105465968_iconl.jpeg
+│   │   ├── aerial_video_burger_king_sign_footage_105465968_iconl.xml
+│   │   ├── are_there_in_n_out_gluten_free_options_whats_safe_to_eat.jpg
+│   │   ├── are_there_in_n_out_gluten_free_options_whats_safe_to_eat.xml
+│   │   ├── b0d71830b63c538dfa5ba30e7665cd00aaff740d.jpg
+│   │   ├── b0d71830b63c538dfa5ba30e7665cd00aaff740d.xml
+│   │   ├── b651394a_6a79_4f2b_a9ba_7cb9c12c9452 - Copy.jpg
+│   │   ├── b651394a_6a79_4f2b_a9ba_7cb9c12c9452 - Copy.xml
+│   │   ├── bedford_in_mcdonalds.jpg
+│   │   ├── bedford_in_mcdonalds.xml
+│   │   ├── billboard_sign_shows_the_location_of_a_kfc_restaurant_april_19_2012_picture_id143127550 - Copy.jpg
+│   │   ├── billboard_sign_shows_the_location_of_a_kfc_restaurant_april_19_2012_picture_id143127550 - Copy.xml
+│   │   ├── bk_wendys_sign.jpg
+│   │   ├── bk_wendys_sign.xml
+│   │   ├── burger_king_and_taco_bell_signs_picture_id458127907.jpg
+│   │   ├── burger_king_and_taco_bell_signs_picture_id458127907.xml
+│   │   ├── burger_king_burns_mcds.jpg
+│   │   ├── burger_king_burns_mcds.xml
+│   │   ├── burger_king_lightbox_sign_1.jpg
+│   │   ├── burger_king_lightbox_sign_1.xml
+│   │   ├── burger_king_outside_exterior_logo_sign_in_montgomery_alabama_usa_PJ124F.jpg
+│   │   ├── burger_king_outside_exterior_logo_sign_in_montgomery_alabama_usa_PJ124F.xml
+│   │   ├── burger_king_picture_id458406353.jpg
+│   │   ├── burger_king_picture_id458406353.xml
+│   │   ├── burger_king_plans_open_100_plus_restaurants_canada_0.jpg
+│   │   ├── burger_king_plans_open_100_plus_restaurants_canada_0.xml
+│   │   ├── burger_king_restaurant_sign_24145620.jpg
+│   │   ├── burger_king_restaurant_sign_24145620.xml
+│   │   ├── burger_king_sign (2).jpg
+│   │   ├── burger_king_sign (2).xml
+│   │   ├── burger_king_sign (3).jpg
+│   │   ├── burger_king_sign (3).xml
+│   │   ├── burger_king_sign.jpg
+│   │   ├── burger_king_sign.xml
+│   │   ├── burger_king_sign_ccflcr_ceiling.jpg
+│   │   ├── burger_king_sign_ccflcr_ceiling.xml
+│   │   ├── burger_king_tim_hortons.jpg
+│   │   ├── burger_king_tim_hortons.xml
+│   │   ├── burger_king_tim_hortons_3g_capital_06907419_andrew_vaughan_cp_compressor.jpg
+│   │   ├── burger_king_tim_hortons_3g_capital_06907419_andrew_vaughan_cp_compressor.xml
+│   │   ├── burgerking_0807.jpg
+│   │   ├── burgerking_0807.xml
+│   │   ├── burgerking_popeyes.0.jpg
+│   │   ├── burgerking_popeyes.0.xml
+│   │   ├── cam_l_burger_1006_2.jpg
+│   │   ├── cam_l_burger_1006_2.xml
+│   │   ├── classic_cali_burger_11_stephen_stookey.jpg
+│   │   ├── classic_cali_burger_11_stephen_stookey.xml
+│   │   ├── cops_eat_free_at_kfc_03_500x454 - Copy.jpg
+│   │   ├── cops_eat_free_at_kfc_03_500x454 - Copy.xml
+│   │   ├── copy_2_300x300 - Copy.jpg
+│   │   ├── copy_2_300x300 - Copy.xml
+│   │   ├── ct_kfc_recipe_hometown_corbin_kentucky_travel_20160818.jpg
+│   │   ├── ct_kfc_recipe_hometown_corbin_kentucky_travel_20160818.xml
+│   │   ├── depositphotos_186130566_stock_photo_kfc_restaurant_oitside_sign.jpg
+│   │   ├── depositphotos_186130566_stock_photo_kfc_restaurant_oitside_sign.xml
+│   │   ├── depositphotos_31579825_stock_photo_sacramento_usa_september_13_burger.jpg
+│   │   ├── depositphotos_31579825_stock_photo_sacramento_usa_september_13_burger.xml
+│   │   ├── display_case_study_kfc_roseville2_1024x683.jpg
+│   │   ├── display_case_study_kfc_roseville2_1024x683.xml
+│   │   ├── display_solutions_kfc_1024x683.jpg
+│   │   ├── display_solutions_kfc_1024x683.xml
+│   │   ├── dreamstime_s_26366844.jpg
+│   │   ├── dreamstime_s_26366844.xml
+│   │   ├── e4afb9d4_8456_4930_9592_15cad6bed92e.jpg
+│   │   ├── e4afb9d4_8456_4930_9592_15cad6bed92e.xml
+│   │   ├── five_guys_in_n_out_burger_wars.jpg
+│   │   ├── five_guys_in_n_out_burger_wars.xml
+│   │   ├── front_sign.jpg
+│   │   ├── front_sign.xml
+│   │   ├── g14_1989902.jpg
+│   │   ├── g14_1989902.xml
+│   │   ├── getty_546065892_200013311653767347564_377998.jpg
+│   │   ├── getty_546065892_200013311653767347564_377998.xml
+│   │   ├── gettyimages_1025340204_e1549663344283.jpg
+│   │   ├── gettyimages_1025340204_e1549663344283.xml
+│   │   ├── grand_rapids_burger_king_sign_072616_38563690_ver1.0.jpg
+│   │   ├── grand_rapids_burger_king_sign_072616_38563690_ver1.0.xml
+│   │   ├── hc_1532181629_rwq6ftbqvt_snap_image.jpg
+│   │   ├── hc_1532181629_rwq6ftbqvt_snap_image.xml
+│   │   ├── hqdefault.jpg
+│   │   ├── hqdefault.xml
+│   │   ├── iStock_458546943.jpg
+│   │   ├── iStock_458546943.xml
+│   │   ├── image (1).jpg
+│   │   ├── image (1).xml
+│   │   ├── image5.jpeg
+│   │   ├── image5.xml
+│   │   ├── in_n_out_burger.jpg
+│   │   ├── in_n_out_burger.xml
+│   │   ├── in_n_out_burger_6946_jack_schultz.jpg
+│   │   ├── in_n_out_burger_6946_jack_schultz.xml
+│   │   ├── in_n_out_burger_fast_food_restaurant_logo_sign_hollywood_los_angeles_la_california_ca_usa_PBXMPK.jpg
+│   │   ├── in_n_out_burger_fast_food_restaurant_logo_sign_hollywood_los_angeles_la_california_ca_usa_PBXMPK.xml
+│   │   ├── in_n_out_burger_restaurant_sign_california_usa_E5JK5H.jpg
+│   │   ├── in_n_out_burger_restaurant_sign_california_usa_E5JK5H.xml
+│   │   ├── in_n_out_burger_sign_against_vivid_blue_sky_in_las_vegas_nevada_G8K409.jpg
+│   │   ├── in_n_out_burger_sign_against_vivid_blue_sky_in_las_vegas_nevada_G8K409.xml
+│   │   ├── in_n_out_down_n_out_today_180413_tease_new_091b074455f2a093e38b656c613a80d7.jpg
+│   │   ├── in_n_out_down_n_out_today_180413_tease_new_091b074455f2a093e38b656c613a80d7.xml
+│   │   ├── ininoutsigns040814.0.0.jpg
+│   │   ├── ininoutsigns040814.0.0.xml
+│   │   ├── innout4.jpg
+│   │   ├── innout4.xml
+│   │   ├── innout_burger_a_classic_west_coast_hamburger_restaurant_long_beach_picture_id536073547.jpg
+│   │   ├── innout_burger_a_classic_west_coast_hamburger_restaurant_long_beach_picture_id536073547.xml
+│   │   ├── innout_burger_hollywood_picture_id661611088 - Copy.jpg
+│   │   ├── innout_burger_hollywood_picture_id661611088 - Copy.xml
+│   │   ├── innout_perspective_01_2015 - Copy.jpg
+│   │   ├── innout_perspective_01_2015 - Copy.xml
+│   │   ├── inout.jpg
+│   │   ├── inout.xml
+│   │   ├── inoutn.jpg
+│   │   ├── inoutn.xml
+│   │   ├── inoutn2.jpg
+│   │   ├── inoutn2.xml
+│   │   ├── intro_1568395836.jpg
+│   │   ├── intro_1568395836.xml
+│   │   ├── intro_1580316726 - Copy.jpg
+│   │   ├── intro_1580316726 - Copy.xml
+│   │   ├── kentucky_fried_chicken_kfc_fast_food_restaurant_sign_picture_id535788499.jpg
+│   │   ├── kentucky_fried_chicken_kfc_fast_food_restaurant_sign_picture_id535788499.xml
+│   │   ├── kfc (6).jpg
+│   │   ├── kfc (6).xml
+│   │   ├── kfc_01_hd_footage_010606470_iconl.jpeg
+│   │   ├── kfc_01_hd_footage_010606470_iconl.xml
+│   │   ├── kfc_sign_logo_EK3WTA.jpg
+│   │   ├── kfc_sign_logo_EK3WTA.xml
+│   │   ├── kfcthreeriversmi2.jpg
+│   │   ├── kfcthreeriversmi2.xml
+│   │   ├── kxu63lik09ny.jpg
+│   │   ├── kxu63lik09ny.xml
+│   │   ├── lancaster_pa_usa_february_kfc_restaurant_previously_known_as_kentucky_fried_chicken_american_fast_fo.jpg
+│   │   ├── lancaster_pa_usa_february_kfc_restaurant_previously_known_as_kentucky_fried_chicken_american_fast_fo.xml
+│   │   ├── los_angeles_causa_may_24_2015_exterior_sign_of_an_in_n_out_burger_ER42CY.jpg
+│   │   ├── los_angeles_causa_may_24_2015_exterior_sign_of_an_in_n_out_burger_ER42CY.xml
+│   │   ├── maxresdefault (1).jpg
+│   │   ├── maxresdefault (1).xml
+│   │   ├── maxresdefault (3).jpg
+│   │   ├── maxresdefault (3).xml
+│   │   ├── maxresdefault.jpg
+│   │   ├── maxresdefault.xml
+│   │   ├── mcd1 - Copy.jpg
+│   │   ├── mcd1 - Copy.xml
+│   │   ├── mcdonalds.jpg
+│   │   ├── mcdonalds.xml
+│   │   ├── mcdonalds_839352_1280_12.jpg
+│   │   ├── mcdonalds_839352_1280_12.xml
+│   │   ├── mcdonalds_australia_mccafe_1742934_o.jpg
+│   │   ├── mcdonalds_australia_mccafe_1742934_o.xml
+│   │   ├── mcdonalds_drive_thru.0.0.jpg
+│   │   ├── mcdonalds_drive_thru.0.0.xml
+│   │   ├── mcdonalds_happy_meal_changes_ridgeland_usa_14_feb_2018_800x450.jpg
+│   │   ├── mcdonalds_happy_meal_changes_ridgeland_usa_14_feb_2018_800x450.xml
+│   │   ├── mcdonalds_sign (10).jpg
+│   │   ├── mcdonalds_sign (10).xml
+│   │   ├── mcdonalds_sign_1 (2).jpg
+│   │   ├── mcdonalds_sign_1 (2).xml
+│   │   ├── mcdonalds_sign_18918461.jpg
+│   │   ├── mcdonalds_sign_18918461.xml
+│   │   ├── mcdonalds_sign_cc_img.jpg
+│   │   ├── mcdonalds_sign_cc_img.xml
+│   │   ├── mcdonalds_sign_on_left_picture_id458648693.jpg
+│   │   ├── mcdonalds_sign_on_left_picture_id458648693.xml
+│   │   ├── monument_sign_illuminated_masonry.jpg
+│   │   ├── monument_sign_illuminated_masonry.xml
+│   │   ├── my_favourite_sign_ever.jpg
+│   │   ├── my_favourite_sign_ever.xml
+│   │   ├── newino.jpg
+│   │   ├── newino.xml
+│   │   ├── newsEngin.24147522_pjw081910burgerking.jpg
+│   │   ├── newsEngin.24147522_pjw081910burgerking.xml
+│   │   ├── nhTZRPj.jpg
+│   │   ├── nhTZRPj.xml
+│   │   ├── o (1).jpg
+│   │   ├── o (1).xml
+│   │   ├── original_15726_1401312741_9.jpg
+│   │   ├── original_15726_1401312741_9.xml
+│   │   ├── photo_1500868766630_f5477adf6f9c.jpg
+│   │   ├── photo_1500868766630_f5477adf6f9c.xml
+│   │   ├── photo_1521431974017_2521d1cdcd65.jpg
+│   │   ├── photo_1521431974017_2521d1cdcd65.xml
+│   │   ├── preview.jpg
+│   │   ├── preview.xml
+│   │   ├── rsz_innoutburger2_jasonstout.jpg
+│   │   ├── rsz_innoutburger2_jasonstout.xml
+│   │   ├── s107672277_1.jpg
+│   │   ├── s107672277_1.xml
+│   │   ├── s_l300 (1).jpg
+│   │   ├── s_l300 (1).xml
+│   │   ├── san_francisco_california_usa_82915_260nw_769640605.jpg
+│   │   ├── san_francisco_california_usa_82915_260nw_769640605.xml
+│   │   ├── shutterstock_249251512_800x450.jpg
+│   │   ├── shutterstock_249251512_800x450.xml
+│   │   ├── shutterstock_333927419.0.jpg
+│   │   ├── shutterstock_333927419.0.xml
+│   │   ├── sign (1).jpg
+│   │   ├── sign (1).xml
+│   │   ├── sign (1)_McDees.jpg
+│   │   ├── sign (1)_McDees.xml
+│   │   ├── sign (3).jpg
+│   │   ├── sign (3).xml
+│   │   ├── sign (4).jpg
+│   │   ├── sign (4).xml
+│   │   ├── sign.jpg
+│   │   ├── sign.xml
+│   │   ├── sign_Mc.jpg
+│   │   ├── sign_Mc.xml
+│   │   ├── sign_from_highway_10.jpg
+│   │   ├── sign_from_highway_10.xml
+│   │   ├── sign_nocrash_KFC.jpg
+│   │   ├── sign_nocrash_KFC.xml
+│   │   ├── sign_with_logo_burger_king_restaurant_drive_in_BE3H1A.jpg
+│   │   ├── sign_with_logo_burger_king_restaurant_drive_in_BE3H1A.xml
+│   │   ├── sipa_25430386.jpg
+│   │   ├── sipa_25430386.xml
+│   │   ├── stream_2.7376616.jpg
+│   │   ├── stream_2.7376616.xml
+│   │   ├── sweden_sign_logo_night.jpg
+│   │   ├── sweden_sign_logo_night.xml
+│   │   ├── teaches_2915439_1920_5.jpg
+│   │   ├── teaches_2915439_1920_5.xml
+│   │   ├── the_sign.jpg
+│   │   ├── the_sign.xml
+│   │   ├── tim_hortons_sign_cc_by_Ann_Baekken_burger_king_getty_106004438.jpg
+│   │   ├── tim_hortons_sign_cc_by_Ann_Baekken_burger_king_getty_106004438.xml
+│   │   ├── tl_horizontal_main_1525968737.jpg
+│   │   ├── tl_horizontal_main_1525968737.xml
+│   │   ├── try_our_new_mcrape_mcdonalds_sign_fail.jpg
+│   │   ├── try_our_new_mcrape_mcdonalds_sign_fail.xml
+│   │   ├── welcome_sign.jpg
+│   │   ├── welcome_sign.xml
+│   │   ├── xv6k8uxkzy511.jpg
+│   │   └── xv6k8uxkzy511.xml
+│   ├── UDXOS7NGKVAV5B6ZGZYZZHC65Q.jpg
+│   ├── UDXOS7NGKVAV5B6ZGZYZZHC65Q.xml
+│   ├── _80239450_mcd_toledo.jpg
+│   ├── _80239450_mcd_toledo.xml
+│   ├── _XPx9eus_400x400.jpg
+│   ├── _XPx9eus_400x400.xml
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (1).jpg
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (1).xml
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (2).jpg
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (2).xml
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (3).jpg
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july (3).xml
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july.jpg
+│   ├── a_logo_sign_outside_of_a_in_n_out_burger_fast_food_restaurant_location_in_american_fork_utah_on_july.xml
+│   ├── a_sign_for_in_n_out_burger_at_fishermans_wharf_in_san_francisco_california_H9F4FW.jpg
+│   ├── a_sign_for_in_n_out_burger_at_fishermans_wharf_in_san_francisco_california_H9F4FW.xml
+│   ├── aerial_video_burger_king_sign_footage_105465968_iconl.jpeg
+│   ├── aerial_video_burger_king_sign_footage_105465968_iconl.xml
+│   ├── are_there_in_n_out_gluten_free_options_whats_safe_to_eat.jpg
+│   ├── are_there_in_n_out_gluten_free_options_whats_safe_to_eat.xml
+│   ├── b0d71830b63c538dfa5ba30e7665cd00aaff740d.jpg
+│   ├── b0d71830b63c538dfa5ba30e7665cd00aaff740d.xml
+│   ├── b651394a_6a79_4f2b_a9ba_7cb9c12c9452 - Copy.jpg
+│   ├── b651394a_6a79_4f2b_a9ba_7cb9c12c9452 - Copy.xml
+│   ├── bedford_in_mcdonalds.jpg
+│   ├── bedford_in_mcdonalds.xml
+│   ├── billboard_sign_shows_the_location_of_a_kfc_restaurant_april_19_2012_picture_id143127550 - Copy.jpg
+│   ├── billboard_sign_shows_the_location_of_a_kfc_restaurant_april_19_2012_picture_id143127550 - Copy.xml
+│   ├── bk_wendys_sign.jpg
+│   ├── bk_wendys_sign.xml
+│   ├── burger_king_and_taco_bell_signs_picture_id458127907.jpg
+│   ├── burger_king_and_taco_bell_signs_picture_id458127907.xml
+│   ├── burger_king_burns_mcds.jpg
+│   ├── burger_king_burns_mcds.xml
+│   ├── burger_king_lightbox_sign_1.jpg
+│   ├── burger_king_lightbox_sign_1.xml
+│   ├── burger_king_outside_exterior_logo_sign_in_montgomery_alabama_usa_PJ124F.jpg
+│   ├── burger_king_outside_exterior_logo_sign_in_montgomery_alabama_usa_PJ124F.xml
+│   ├── burger_king_picture_id458406353.jpg
+│   ├── burger_king_picture_id458406353.xml
+│   ├── burger_king_plans_open_100_plus_restaurants_canada_0.jpg
+│   ├── burger_king_plans_open_100_plus_restaurants_canada_0.xml
+│   ├── burger_king_restaurant_sign_24145620.jpg
+│   ├── burger_king_restaurant_sign_24145620.xml
+│   ├── burger_king_sign (2).jpg
+│   ├── burger_king_sign (2).xml
+│   ├── burger_king_sign (3).jpg
+│   ├── burger_king_sign (3).xml
+│   ├── burger_king_sign.jpg
+│   ├── burger_king_sign.xml
+│   ├── burger_king_sign_ccflcr_ceiling.jpg
+│   ├── burger_king_sign_ccflcr_ceiling.xml
+│   ├── burger_king_tim_hortons.jpg
+│   ├── burger_king_tim_hortons.xml
+│   ├── burger_king_tim_hortons_3g_capital_06907419_andrew_vaughan_cp_compressor.jpg
+│   ├── burger_king_tim_hortons_3g_capital_06907419_andrew_vaughan_cp_compressor.xml
+│   ├── burgerking_0807.jpg
+│   ├── burgerking_0807.xml
+│   ├── burgerking_popeyes.0.jpg
+│   ├── burgerking_popeyes.0.xml
+│   ├── cam_l_burger_1006_2.jpg
+│   ├── cam_l_burger_1006_2.xml
+│   ├── classic_cali_burger_11_stephen_stookey.jpg
+│   ├── classic_cali_burger_11_stephen_stookey.xml
+│   ├── cops_eat_free_at_kfc_03_500x454 - Copy.jpg
+│   ├── cops_eat_free_at_kfc_03_500x454 - Copy.xml
+│   ├── copy_2_300x300 - Copy.jpg
+│   ├── copy_2_300x300 - Copy.xml
+│   ├── ct_kfc_recipe_hometown_corbin_kentucky_travel_20160818.jpg
+│   ├── ct_kfc_recipe_hometown_corbin_kentucky_travel_20160818.xml
+│   ├── depositphotos_186130566_stock_photo_kfc_restaurant_oitside_sign.jpg
+│   ├── depositphotos_186130566_stock_photo_kfc_restaurant_oitside_sign.xml
+│   ├── depositphotos_31579825_stock_photo_sacramento_usa_september_13_burger.jpg
+│   ├── depositphotos_31579825_stock_photo_sacramento_usa_september_13_burger.xml
+│   ├── display_case_study_kfc_roseville2_1024x683.jpg
+│   ├── display_case_study_kfc_roseville2_1024x683.xml
+│   ├── display_solutions_kfc_1024x683.jpg
+│   ├── display_solutions_kfc_1024x683.xml
+│   ├── dreamstime_s_26366844.jpg
+│   ├── dreamstime_s_26366844.xml
+│   ├── e4afb9d4_8456_4930_9592_15cad6bed92e.jpg
+│   ├── e4afb9d4_8456_4930_9592_15cad6bed92e.xml
+│   ├── five_guys_in_n_out_burger_wars.jpg
+│   ├── five_guys_in_n_out_burger_wars.xml
+│   ├── front_sign.jpg
+│   ├── front_sign.xml
+│   ├── g14_1989902.jpg
+│   ├── g14_1989902.xml
+│   ├── getty_546065892_200013311653767347564_377998.jpg
+│   ├── getty_546065892_200013311653767347564_377998.xml
+│   ├── gettyimages_1025340204_e1549663344283.jpg
+│   ├── gettyimages_1025340204_e1549663344283.xml
+│   ├── grand_rapids_burger_king_sign_072616_38563690_ver1.0.jpg
+│   ├── grand_rapids_burger_king_sign_072616_38563690_ver1.0.xml
+│   ├── hc_1532181629_rwq6ftbqvt_snap_image.jpg
+│   ├── hc_1532181629_rwq6ftbqvt_snap_image.xml
+│   ├── hqdefault.jpg
+│   ├── hqdefault.xml
+│   ├── iStock_458546943.jpg
+│   ├── iStock_458546943.xml
+│   ├── image (1).jpg
+│   ├── image (1).xml
+│   ├── image5.jpeg
+│   ├── image5.xml
+│   ├── in_n_out_burger.jpg
+│   ├── in_n_out_burger.xml
+│   ├── in_n_out_burger_6946_jack_schultz.jpg
+│   ├── in_n_out_burger_6946_jack_schultz.xml
+│   ├── in_n_out_burger_fast_food_restaurant_logo_sign_hollywood_los_angeles_la_california_ca_usa_PBXMPK.jpg
+│   ├── in_n_out_burger_fast_food_restaurant_logo_sign_hollywood_los_angeles_la_california_ca_usa_PBXMPK.xml
+│   ├── in_n_out_burger_restaurant_sign_california_usa_E5JK5H.jpg
+│   ├── in_n_out_burger_restaurant_sign_california_usa_E5JK5H.xml
+│   ├── in_n_out_burger_sign_against_vivid_blue_sky_in_las_vegas_nevada_G8K409.jpg
+│   ├── in_n_out_burger_sign_against_vivid_blue_sky_in_las_vegas_nevada_G8K409.xml
+│   ├── in_n_out_down_n_out_today_180413_tease_new_091b074455f2a093e38b656c613a80d7.jpg
+│   ├── in_n_out_down_n_out_today_180413_tease_new_091b074455f2a093e38b656c613a80d7.xml
+│   ├── ininoutsigns040814.0.0.jpg
+│   ├── ininoutsigns040814.0.0.xml
+│   ├── innout4.jpg
+│   ├── innout4.xml
+│   ├── innout_burger_a_classic_west_coast_hamburger_restaurant_long_beach_picture_id536073547.jpg
+│   ├── innout_burger_a_classic_west_coast_hamburger_restaurant_long_beach_picture_id536073547.xml
+│   ├── innout_burger_hollywood_picture_id661611088 - Copy.jpg
+│   ├── innout_burger_hollywood_picture_id661611088 - Copy.xml
+│   ├── innout_perspective_01_2015 - Copy.jpg
+│   ├── innout_perspective_01_2015 - Copy.xml
+│   ├── inout.jpg
+│   ├── inout.xml
+│   ├── inoutn.jpg
+│   ├── inoutn.xml
+│   ├── inoutn2.jpg
+│   ├── inoutn2.xml
+│   ├── intro_1568395836.jpg
+│   ├── intro_1568395836.xml
+│   ├── intro_1580316726 - Copy.jpg
+│   ├── intro_1580316726 - Copy.xml
+│   ├── kentucky_fried_chicken_kfc_fast_food_restaurant_sign_picture_id535788499.jpg
+│   ├── kentucky_fried_chicken_kfc_fast_food_restaurant_sign_picture_id535788499.xml
+│   ├── kfc (6).jpg
+│   ├── kfc (6).xml
+│   ├── kfc_01_hd_footage_010606470_iconl.jpeg
+│   ├── kfc_01_hd_footage_010606470_iconl.xml
+│   ├── kfc_sign_logo_EK3WTA.jpg
+│   ├── kfc_sign_logo_EK3WTA.xml
+│   ├── kfcthreeriversmi2.jpg
+│   ├── kfcthreeriversmi2.xml
+│   ├── kxu63lik09ny.jpg
+│   ├── kxu63lik09ny.xml
+│   ├── lancaster_pa_usa_february_kfc_restaurant_previously_known_as_kentucky_fried_chicken_american_fast_fo.jpg
+│   ├── lancaster_pa_usa_february_kfc_restaurant_previously_known_as_kentucky_fried_chicken_american_fast_fo.xml
+│   ├── los_angeles_causa_may_24_2015_exterior_sign_of_an_in_n_out_burger_ER42CY.jpg
+│   ├── los_angeles_causa_may_24_2015_exterior_sign_of_an_in_n_out_burger_ER42CY.xml
+│   ├── maxresdefault (1).jpg
+│   ├── maxresdefault (1).xml
+│   ├── maxresdefault (3).jpg
+│   ├── maxresdefault (3).xml
+│   ├── maxresdefault.jpg
+│   ├── maxresdefault.xml
+│   ├── mcd1 - Copy.jpg
+│   ├── mcd1 - Copy.xml
+│   ├── mcdonalds.jpg
+│   ├── mcdonalds.xml
+│   ├── mcdonalds_839352_1280_12.jpg
+│   ├── mcdonalds_839352_1280_12.xml
+│   ├── mcdonalds_australia_mccafe_1742934_o.jpg
+│   ├── mcdonalds_australia_mccafe_1742934_o.xml
+│   ├── mcdonalds_drive_thru.0.0.jpg
+│   ├── mcdonalds_drive_thru.0.0.xml
+│   ├── mcdonalds_happy_meal_changes_ridgeland_usa_14_feb_2018_800x450.jpg
+│   ├── mcdonalds_happy_meal_changes_ridgeland_usa_14_feb_2018_800x450.xml
+│   ├── mcdonalds_sign (10).jpg
+│   ├── mcdonalds_sign (10).xml
+│   ├── mcdonalds_sign_1 (2).jpg
+│   ├── mcdonalds_sign_1 (2).xml
+│   ├── mcdonalds_sign_18918461.jpg
+│   ├── mcdonalds_sign_18918461.xml
+│   ├── mcdonalds_sign_cc_img.jpg
+│   ├── mcdonalds_sign_cc_img.xml
+│   ├── mcdonalds_sign_on_left_picture_id458648693.jpg
+│   ├── mcdonalds_sign_on_left_picture_id458648693.xml
+│   ├── monument_sign_illuminated_masonry.jpg
+│   ├── monument_sign_illuminated_masonry.xml
+│   ├── my_favourite_sign_ever.jpg
+│   ├── my_favourite_sign_ever.xml
+│   ├── new test images
+│   │   ├── Annotation 2020-04-05 161854.png
+│   │   ├── Annotation 2020-04-05 162033.png
+│   │   ├── Annotation 2020-04-05 162049.png
+│   │   ├── Annotation 2020-04-05 164457.png
+│   │   ├── Annotation 2020-04-05 164520.png
+│   │   ├── Annotation 2020-04-05 164741.png
+│   │   ├── Annotation 2020-04-05 164905.png
+│   │   ├── Annotation 2020-04-05 165041.png
+│   │   ├── Annotation 2020-04-05 165111.png
+│   │   ├── Annotation 2020-04-05 165158.png
+│   │   ├── Annotation 2020-04-05 165213.png
+│   │   ├── Annotation 2020-04-05 165355.png
+│   │   ├── Annotation 2020-04-05 165411.png
+│   │   ├── Annotation 2020-04-05 165458 68.png
+│   │   ├── Annotation 2020-04-05 165458.png
+│   │   ├── idspheader.png
+│   │   └── signage-board-sign-board-interstate-footage-086134532_iconl.jpeg
+│   ├── newino.jpg
+│   ├── newino.xml
+│   ├── newsEngin.24147522_pjw081910burgerking.jpg
+│   ├── newsEngin.24147522_pjw081910burgerking.xml
+│   ├── nhTZRPj.jpg
+│   ├── nhTZRPj.xml
+│   ├── o (1).jpg
+│   ├── o (1).xml
+│   ├── original_15726_1401312741_9.jpg
+│   ├── original_15726_1401312741_9.xml
+│   ├── photo_1500868766630_f5477adf6f9c.jpg
+│   ├── photo_1500868766630_f5477adf6f9c.xml
+│   ├── photo_1521431974017_2521d1cdcd65.jpg
+│   ├── photo_1521431974017_2521d1cdcd65.xml
+│   ├── preview.jpg
+│   ├── preview.xml
+│   ├── rsz_innoutburger2_jasonstout.jpg
+│   ├── rsz_innoutburger2_jasonstout.xml
+│   ├── s107672277_1.jpg
+│   ├── s107672277_1.xml
+│   ├── s_l300 (1).jpg
+│   ├── s_l300 (1).xml
+│   ├── san_francisco_california_usa_82915_260nw_769640605.jpg
+│   ├── san_francisco_california_usa_82915_260nw_769640605.xml
+│   ├── shutterstock_249251512_800x450.jpg
+│   ├── shutterstock_249251512_800x450.xml
+│   ├── shutterstock_333927419.0.jpg
+│   ├── shutterstock_333927419.0.xml
+│   ├── sign (1).jpg
+│   ├── sign (1).xml
+│   ├── sign (1)_McDees.jpg
+│   ├── sign (1)_McDees.xml
+│   ├── sign (3).jpg
+│   ├── sign (3).xml
+│   ├── sign (4).jpg
+│   ├── sign (4).xml
+│   ├── sign.jpg
+│   ├── sign.xml
+│   ├── sign_Mc.jpg
+│   ├── sign_Mc.xml
+│   ├── sign_from_highway_10.jpg
+│   ├── sign_from_highway_10.xml
+│   ├── sign_nocrash_KFC.jpg
+│   ├── sign_nocrash_KFC.xml
+│   ├── sign_with_logo_burger_king_restaurant_drive_in_BE3H1A.jpg
+│   ├── sign_with_logo_burger_king_restaurant_drive_in_BE3H1A.xml
+│   ├── sipa_25430386.jpg
+│   ├── sipa_25430386.xml
+│   ├── stream_2.7376616.jpg
+│   ├── stream_2.7376616.xml
+│   ├── sweden_sign_logo_night.jpg
+│   ├── sweden_sign_logo_night.xml
+│   ├── teaches_2915439_1920_5.jpg
+│   ├── teaches_2915439_1920_5.xml
+│   ├── the_sign.jpg
+│   ├── the_sign.xml
+│   ├── tim_hortons_sign_cc_by_Ann_Baekken_burger_king_getty_106004438.jpg
+│   ├── tim_hortons_sign_cc_by_Ann_Baekken_burger_king_getty_106004438.xml
+│   ├── tl_horizontal_main_1525968737.jpg
+│   ├── tl_horizontal_main_1525968737.xml
+│   ├── try_our_new_mcrape_mcdonalds_sign_fail.jpg
+│   ├── try_our_new_mcrape_mcdonalds_sign_fail.xml
+│   ├── welcome_sign.jpg
+│   ├── welcome_sign.xml
+│   ├── xv6k8uxkzy511.jpg
+│   └── xv6k8uxkzy511.xml
+├── ssd_mobilenet_v1_coco_11_06_2017
+│   ├── frozen_inference_graph.pb
+│   ├── graph.pbtxt
+│   ├── model.ckpt.data-00000-of-00001
+│   ├── model.ckpt.index
+│   └── model.ckpt.meta
+└── training
+    ├── checkpoint
+    ├── events.out.tfevents.1585994528.AR-Y545
+    ├── graph.pbtxt
+    ├── model.ckpt-2911.data-00000-of-00001
+    ├── model.ckpt-2911.index
+    ├── model.ckpt-2911.meta
+    ├── model.ckpt-2980.data-00000-of-00001
+    ├── model.ckpt-2980.index
+    ├── model.ckpt-2980.meta
+    ├── model.ckpt-3051.data-00000-of-00001
+    ├── model.ckpt-3051.index
+    ├── model.ckpt-3051.meta
+    ├── model.ckpt-3122.data-00000-of-00001
+    ├── model.ckpt-3122.index
+    ├── model.ckpt-3122.meta
+    ├── model.ckpt-3187.data-00000-of-00001
+    ├── model.ckpt-3187.index
+    ├── model.ckpt-3187.meta
+    ├── object-detection.pbtxt
+    ├── pipeline.config
+    └── ssd_mobilenet_v1_pets.config
+
+10 directories, 1183 files
